@@ -173,7 +173,7 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &6329708158078634837
 Animator:
-  serializedVersion: 4
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -190,7 +190,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!114 &4730054675863821021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,7 +210,8 @@ MonoBehaviour:
       Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"randomSnore","value":{"$content":[{"$content":7,"$type":"UnityEngine.Object"},{"$content":8,"$type":"UnityEngine.Object"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
       Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"randomSighting","value":{"$content":[{"$content":9,"$type":"UnityEngine.Object"},{"$content":10,"$type":"UnityEngine.Object"},{"$content":11,"$type":"UnityEngine.Object"},{"$content":12,"$type":"UnityEngine.Object"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
       Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"endSequence","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"sheepGameObject","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 583579329592285115}
     - {fileID: 8206539275044877720}
@@ -525,7 +526,8 @@ MonoBehaviour:
   m_text: ZZZZZ
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b55c85fe9d2e9e7419ce8bdf480c77c2, type: 2}
-  m_sharedMaterial: {fileID: 4263339028399941434, guid: b55c85fe9d2e9e7419ce8bdf480c77c2, type: 2}
+  m_sharedMaterial: {fileID: 4263339028399941434, guid: b55c85fe9d2e9e7419ce8bdf480c77c2,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -614,7 +616,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3000321352348039120}
-  m_LocalRotation: {x: 0.000000092459274, y: -0.00000041968664, z: -3.8593918e-14, w: 1}
+  m_LocalRotation: {x: 0.000000092459274, y: -0.00000041968664, z: -3.8593918e-14,
+    w: 1}
   m_LocalPosition: {x: -0.015519399, y: 0, z: 3.4459989e-18}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -678,7 +681,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3824061509241804674}
-  m_LocalRotation: {x: 0.00000005625065, y: -0.00000041955437, z: -2.3405328e-14, w: 1}
+  m_LocalRotation: {x: 0.00000005625065, y: -0.00000041955437, z: -2.3405328e-14,
+    w: 1}
   m_LocalPosition: {x: 0.015519369, y: 0, z: 6.9388935e-19}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1242,7 +1246,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7575053651853042768}
-  m_LocalRotation: {x: -0.00000008720681, y: -0.00000008511105, z: 0.0000003232647, w: 1}
+  m_LocalRotation: {x: -0.00000008720681, y: -0.00000008511105, z: 0.0000003232647,
+    w: 1}
   m_LocalPosition: {x: 0.009294641, y: 0.0013603006, z: -0.00987965}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

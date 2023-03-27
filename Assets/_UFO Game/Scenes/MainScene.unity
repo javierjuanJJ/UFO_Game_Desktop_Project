@@ -28911,12 +28911,14 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"timeStartWalking","value":{"$content":4.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"timeEndWalking","value":{"$content":8.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"timeWalking","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"sheepGameObject","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"sheepGroupGameObject","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 4730054675863821021, guid: 34eaffaee21765547bd484480e84cd04,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 4730054675863821021, guid: 34eaffaee21765547bd484480e84cd04,
         type: 3}
@@ -28927,12 +28929,13 @@ PrefabInstance:
         type: 3}
       propertyPath: _data._objectReferences.Array.data[2]
       value: 
-      objectReference: {fileID: 8300000, guid: e58aa7c499da5fb4390a67834d8b106d, type: 3}
+      objectReference: {fileID: 4446069608452107737, guid: 4e2aeb61b8ea29d46a2a776ec113e67e,
+        type: 3}
     - target: {fileID: 4730054675863821021, guid: 34eaffaee21765547bd484480e84cd04,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[3]
       value: 
-      objectReference: {fileID: 8300000, guid: 069cbb2bc3df52d439815bac9c38320a, type: 3}
+      objectReference: {fileID: 1560005794}
     - target: {fileID: 4730054675863821021, guid: 34eaffaee21765547bd484480e84cd04,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[4]
